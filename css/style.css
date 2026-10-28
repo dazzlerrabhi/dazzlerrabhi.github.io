@@ -9717,3 +9717,19 @@ textarea.form-control {
 .resume-wrap h2 a:hover {
     color: #ff2474;
 }
+
+/* Keep certification cards equal in height */
+#resume-section .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#resume-section .row > .col-md-6 {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#resume-section .resume-wrap {
+    width: 100%;
+    height: 100%;
+}
