@@ -9707,3 +9707,13 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+/* Certification title links */
+.resume-wrap h2 a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.resume-wrap h2 a:hover {
+    color: #ff2474;
+}
