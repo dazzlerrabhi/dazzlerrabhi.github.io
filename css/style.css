@@ -9718,18 +9718,14 @@ textarea.form-control {
     color: #ff2474;
 }
 
-/* Keep certification cards equal in height */
-#resume-section .row {
-    display: flex;
-    flex-wrap: wrap;
-}
 
+/* Equal height certification cards only */
 #resume-section .row > .col-md-6 {
     display: flex;
-    margin-bottom: 30px;
+    align-items: stretch;
 }
 
-#resume-section .resume-wrap {
+#resume-section .row > .col-md-6 .resume-wrap {
     width: 100%;
     height: 100%;
 }
